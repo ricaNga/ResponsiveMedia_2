@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    display: flex;
+    font-size: 18px;
+    font-family: Poppins;
+}
+h3{
+   
+    font-weight: 400px;
+    font-family: Poppins;
+    padding: 10px;
+    margin-top: 20px;
+}
+p{
+    font-family: Open+Sans;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 20px;
+}
+.button1{
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    width: 150px;
+}
+.button2{
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 10px;
+    width: 250px;
+}
+main{
+    display: grid;
+    width: 50%;
+    margin:auto;
+  
+}
+main div{
+    padding: 2em;
+    text-align: center;
+    
+}
+.item-a{
+    background-image: url(images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    display: grid;
+    gap: 10px;
+    margin: auto;
+    position: relative;
+}
+.item-a1{
+    display: flex;
+}
+
+.item-a1 > div{
+   padding: 5px;
+   margin: 10px;
+}
+.item-a12{
+    position: absolute;
+    top: 5px;
+    right: 16px;
+}
+.item-a11{
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    
+}
+.item-a2{
+    
+    display: flex;
+}
+.item-a2 > div{
+    padding: 5px;
+    
+ }
+.item-b{
+    background-color: white;
+    display: grid;
+    gap: 10px;
+    margin: auto;
+    
+    
+}
+.item-b1{
+    border: 1px solid ;
+    grid-area: 1;
+    display: flex;
+}
+.item-b1 > div{
+    padding: 5px;
+    
+ }
+
+.item-b2{
+    border: 1px solid;
+    grid-area: 2;
+    display: flex;
+}
+.item-b2 > div{
+    padding: 5px;
+    
+ }
+.item-b3{
+    border: 1px solid ;
+    grid-area: 3;
+    display: flex;
+}
+.item-b3 > div{
+    padding: 5px;
+    
+ }
+ 
+.item-c{
+    background-color: hsl(192, 100%, 9%);
+    position: relative;
+    z-index: 1;
+    margin-top: 200px;
+   
+}
+.item-c1{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 75%;
+    margin-top: 20px;
+    position: absolute;
+    z-index: 3;
+    left: 60px;
+    bottom: 170px;
+ }
+.item-c2{
+ display: flex;
+ }
+.item-c2 > div{
+    padding: 10px;
+}
